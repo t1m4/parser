@@ -1,9 +1,8 @@
-# parser
 This is Apache log parser. It find sql-injection, ddos-attack, response status.
-Парсер логов apache предназначен для определения различных видов атак на сервер. 
-Есть несколько функций которые реализует парсер:
-1. Определение статуса ответа
-2. Нахождние sql-injection на основе инъекции в запрос
-3. Нахождение ddos-атак(10 раз за 2-3 секунды)
-4. Сортировка по IP
-Во второй версии парсера поиск ddos происходит более быстрее
+The apache log parser is designed to detect different kinds of attacks on the server. 
+There are several functions this parser can help you with:
+Detecting response status.
+2. Finding sql-injection based on a query injection
+Finding ddos-attacks (10 times in 2-3 seconds).
+4. IP sorting.
+The second version of the parser searches for ddos more quickly
